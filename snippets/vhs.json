@@ -1,0 +1,62 @@
+{
+  "namespace": {
+    "prefix": "vNamespace",
+    "body": [
+      "xmlns:v=\"http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers\""
+    ],
+    "description": "TYPO3 VHS | namespace"
+  },
+  "namespace legacy": {
+    "prefix": "vNamespaceLegacy",
+    "body": [
+      "{namespace v=FluidTYPO3\\Vhs\\ViewHelpers}"
+    ],
+    "description": "TYPO3 VHS | legacy namespace"
+  },
+  "v:content.render": {
+    "prefix": "vContentRender",
+    "body": [
+      "<v:content.render contentUids=\"{uid: '$1'}\" />"
+    ],
+    "description": "TYPO3 VHS | <v:content.render>"
+  },
+  "v:if": {
+    "prefix": "vIf",
+    "body": [
+      "<v:if stack=\"{0: $1}\">",
+      "\t$2",
+      "</v:if>"
+    ],
+    "description": "TYPO3 VHS | <v:if>"
+  },
+  "v:if Inline": {
+    "prefix": "vIfInline",
+    "body": [
+      "{v:if(stack: {0: $1} then: '$2'${3:, else: '$4'})}"
+    ],
+    "description": "TYPO3 VHS | {v:if()}"
+  },
+  "v:link.typolink": {
+    "prefix": "vLinkTypolink",
+    "body": [
+      "<v:link.typolink configuration=\"{parameter: $1,${2: ATagParams: 'class=\"$3\"'}}\">",
+      "\t$4",
+      "</v:link.typolink>"
+    ],
+    "description": "TYPO3 VHS | <v:link.typolink>"
+  },
+  "v:variable.set": {
+    "prefix": "vVariableSet",
+    "body": [
+      "<v:variable.set name=\"$1\" value=\"$2\" />"
+    ],
+    "description": "TYPO3 VHS | <v:variable.set>"
+  },
+  "v:variable.get": {
+    "prefix": "vVariableGet",
+    "body": [
+      "<v:variable.get name=\"$1\" />"
+    ],
+    "description": "TYPO3 VHS | <v:variable.get>"
+  }
+}

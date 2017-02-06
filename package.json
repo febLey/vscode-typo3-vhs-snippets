@@ -1,0 +1,40 @@
+{
+    "name": "typo3-vhs-snippets",
+    "displayName": "TYPO3 VHS Snippets",
+    "description": "A collection of snippets for the TYPO3 VHS: Fluid ViewHelpers",
+    "icon": "images/icon.svg",
+    "version": "0.0.0",
+    "preview": true,
+    "publisher": "febley",
+    "galleryBanner": {
+        "color": "#ffffff",
+        "theme": "light"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/febLey/vscode-typo3-vhs-snippets/issues",
+        "email": "smcbreen@microsoft.com"
+    },
+    "homepage": "https://github.com/febLey/vscode-typo3-vhs-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/febLey/vscode-typo3-vhs-snippets.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/vhs.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vscode": "^1.0.0"
+    }
+}
