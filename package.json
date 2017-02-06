@@ -20,6 +20,12 @@
         "type": "git",
         "url": "https://github.com/febLey/vscode-typo3-vhs-snippets.git"
     },
+    "keywords": [
+        "typo3",
+        "vhs",
+        "fluid",
+        "snippets"
+    ],
     "categories": [
         "Snippets"
     ],
